@@ -156,7 +156,7 @@ const HeroSection = () => (
         <Button variant="outline-primary">Contact Us</Button>
       </Col>
       <Col md={6}>
-        <img src={image} className="w-75 d-flex m-auto" />
+        <img src={image} alt={"..."} className="w-75 d-flex m-auto" />
       </Col>
     </Row>
   </Container>
@@ -168,7 +168,7 @@ const Features = () => (
     <h2 className="text-center mb-5">Features</h2>
     <Row className="my-5">
       <Col md={6}>
-        <img src={image} className="w-100" />
+        <img alt={"..."} src={image} className="w-100" />
       </Col>
       <Col md={6}>
         <div className="mt-5 text-gray">
@@ -182,7 +182,7 @@ const Features = () => (
     </Row>
     <Row className="my-5 d-flex flex-column flex-md-row">
       <Col md={6} className="order-md-2 mb-3 mb-md-0">
-        <img src={image} alt="Description" className="w-100" />
+        <img alt={"..."} src={image} alt="Description" className="w-100" />
       </Col>
       <Col md={6} className="order-md-1">
         <div className="mt-5 text-gray">
@@ -196,7 +196,7 @@ const Features = () => (
     </Row>
     <Row className="my-5">
       <Col md={6}>
-        <img src={image} className="w-100" />
+        <img alt={"..."} src={image} className="w-100" />
       </Col>
       <Col md={6}>
         <div className="mt-5 text-gray">
@@ -219,7 +219,7 @@ const Products = () => (
       {[1, 2, 3].map((item) => (
         <Col md={4} key={item} className="mb-5">
           <Card>
-            <img src={image} className="w-100" key={item} />
+            <img alt={"..."} src={image} className="w-100" key={item} />
 
             <Card.Body>
               <Card.Title>Card title</Card.Title>
@@ -249,7 +249,7 @@ const ContactForm = () => (
     <h2 className="text-center mb-5">Contact Us</h2>
     <Row className="justify-content-center">
       <Col md={6}>
-        <img src={image} className="w-75" />
+        <img alt={"..."} src={image} className="w-75" />
       </Col>
       <Col md={6}>
         <Form className="d-flex flex-column justify-content-center h-100">
