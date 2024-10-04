@@ -182,7 +182,7 @@ const Features = () => (
     </Row>
     <Row className="my-5 d-flex flex-column flex-md-row">
       <Col md={6} className="order-md-2 mb-3 mb-md-0">
-        <img alt={"..."} src={image} alt="Description" className="w-100" />
+        <img alt={"..."} src={image} className="w-100" />
       </Col>
       <Col md={6} className="order-md-1">
         <div className="mt-5 text-gray">
