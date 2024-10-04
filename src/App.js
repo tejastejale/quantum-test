@@ -147,9 +147,10 @@ const HeroSection = () => (
         </h2>
         <p className="mb-4">
           Some quick example text to build on the card title and make up the
-          bulk of the card's content.Some quick example text to build on the
+          bulk of the card's content. Some quick example text to build on the
           card title and make up the bulk of the card's content.
         </p>
+        <p className="text-gray">The Images Will Take Sometime to Load</p>
         <Button variant="primary" className="me-3">
           Get Started
         </Button>
